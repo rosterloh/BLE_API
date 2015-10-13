@@ -31,7 +31,7 @@ public:
     * @param[ref] _ble
     *               BLE object for the underlying controller.
     * @param[in] level
-    *               8bit batterly level. Usually used to represent percentage of batterly charge remaining.
+    *               8bit battery level. Usually used to represent percentage of battery charge remaining.
     */
     BatteryService(BLE &_ble, uint8_t level = 100) :
         ble(_ble),
